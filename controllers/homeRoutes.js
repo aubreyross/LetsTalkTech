@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Post, User, Comment } = require('../models');
 const withAuth = require('../utils/auth');
 
-//get ALL POSTS route
+//route to get all posts
 router.get('/', withAuth, async (req, res) => {
     try {
         const postData = await Post.findAll({
@@ -27,7 +27,7 @@ router.get('/', withAuth, async (req, res) => {
     }
 });
 
-//get ONE POST route
+//route to get post by ID
 router.get('/post/:id', withAuth, async (req, res) => {
     try {
         const postData = await Post.findByPk(req.params.id, {
@@ -66,7 +66,6 @@ router.get('/post/:id', withAuth, async (req, res) => {
 router.get('/dashboard', withAuth, async (req, res) => {
     try {
         // Find the logged in user based on the session ID
-        // console.log(req.session.user_id);
         const userData = await
             User.findByPk(req.session.user_id, {
                 attributes: { exclude: ['password'] },
@@ -85,7 +84,7 @@ router.get('/dashboard', withAuth, async (req, res) => {
 });
 
 router.get('/login', (req, res) => {
-    // If the user is already logged in, redirect the request to
+    // If the user is already logged in, redirect the request
     if (req.session.logged_in) {
         res.redirect('/dashboard');
         return;

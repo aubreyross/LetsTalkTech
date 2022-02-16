@@ -2,27 +2,32 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>Lets Talk Tech</title>
-  {{!-- <link rel="stylesheet" href="/css/jass.css"> --}}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
   <div class="flex-column justify-space-around">
     <header class="display-flex justify-space-between align-center p-2">
-      <header id="header">
-        <nav id="navbar">
+      <h1>
+          <a class="title is-1" href="/">Lets Talk Tech</a>
+      </h1>
+        <nav class="navbar">
         {{#if logged_in}}
         <a href="/" id="homebutton">Home</a>
         <a href="/dashboard" id="dashbutton">Dashboard</a>
-        <button class="no-button" id="logout">logout</button>
+        <button class="no-button" id="logout">Logout</button>
+
         {{else}}
          <a href="/login" id="login">Login</a>
         {{/if}}
       </nav>
-    </div>
+      </header>
     
     <main class="container container-fluid mt-5">
       <!-- Render the sub layout -->

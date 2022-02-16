@@ -1,16 +1,21 @@
+//import required packages
 const path = require('path');
 const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
-const helpers = require('./utils/helpers');
-const routes = require('./controllers');
 
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
+//requires utils + controllers folder
+const helpers = require('./utils/helpers');
+const routes = require('./controllers');
+
+//create express.js server
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+//set handlebars.js with helpers
 const hbs = exphbs.create ({ helpers });
 
 const sess = {
@@ -23,17 +28,21 @@ const sess = {
   })
 };
 
-app.use(session(sess));
-
+//informs express which template engine to utilize
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
-
+app.use(session(sess));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+//set public folder path to static path
 app.use(express.static(path.join(__dirname, 'public')));
+
+//variable for routes 
 app.use(routes);
 
+//run server on localhost 3001
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log(`Now listening to http://localhost:${PORT}`));
 });
