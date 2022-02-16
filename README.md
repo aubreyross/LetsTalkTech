@@ -1,5 +1,6 @@
 # LetsTalkTech
 
+LetsTalkTech is a CMS style blog where developers around the world can create an account, publish and edit their own blog posts, as well as comment on existing posts published to the site.
 
 ## User Story
 
@@ -46,3 +47,21 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
+
+## Technologies
+* Node.js
+* Express
+* Sequelize
+* MySQL2
+* dotenv 
+
+## Preview
+
+
+## URLs
+Code: https://github.com/aubreyross/LetsTalkTech
+Deployed: https://git.heroku.com/letstalktech.git
+
+## Resources
+* Student Mini Project
+* https://jenil.github.io/bulmaswatch/lux/ 
