@@ -64,10 +64,16 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 
 ## URLs
-Code: https://github.com/aubreyross/LetsTalkTech
-Deployed: https://git.heroku.com/letstalktech.git
+* Code: https://github.com/aubreyross/LetsTalkTech
+* Deployed: https://git.heroku.com/letstalktech.git
 
 ## Resources
+* https://developer.mozilla.org/en-US/docs/Glossary/MVC
 * Student Mini Project
 * [bootswatch.com](https://bootswatch.com/)
 * https://getbootstrap.com/
+* https://sequelize.org/v5/manual/data-types.html
+* https://sequelize.org/master/variable/index.html#static-variable-DataTypes
+* And a special thank you to the BCS assitant who helped me with my connection issue! 
+
+

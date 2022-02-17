@@ -1,4 +1,6 @@
+//sequelize constructor
 const Sequelize = require('sequelize');
+//dotenv for environment variables, such as root password
 require('dotenv').config();
 
 let sequelize;
