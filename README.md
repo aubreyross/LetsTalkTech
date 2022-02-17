@@ -64,4 +64,5 @@ Deployed: https://git.heroku.com/letstalktech.git
 
 ## Resources
 * Student Mini Project
-* https://jenil.github.io/bulmaswatch/lux/ 
+* [bootswatch.com](https://bootswatch.com/)
+* https://getbootstrap.com/

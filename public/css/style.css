@@ -47,42 +47,41 @@ button {
 }
 
 #login {
-  color: azure;
+  color: rgb(7, 7, 7);
   margin: 12px;
   text-transform: uppercase;
 }
 
 #logout {
-  color: azure;
+  color: rgb(7, 7, 7);
   margin: 12px;
   text-transform: uppercase;
-  margin-bottom: 37px;
 }
 
 #homebutton {
-  color: azure;
+  color: rgb(7, 7, 7);
   margin: 12px;
   text-transform: uppercase;
 }
 
 #dashbutton {
-  color: azure;
+  color: rgb(7, 7, 7);
   margin: 12px;
   text-transform: uppercase;
 }
 
 .btn {
-  background-color: rgb(51, 50, 53);
+  background-color: rgb(111, 110, 113);
   font-size: 12px;
   font-weight: 600;
-  color:azure;
+  color:rgb(7, 7, 7);;
   text-transform: uppercase;
   
 }
 
 .post-list {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
 }
 
 textarea, input {
@@ -93,7 +92,7 @@ textarea, input {
 
 textarea:focus, input:focus {
   outline: none;
-  border: 1px solid #0a274b;
+  border: 1px solid #ccc;
 }
 
 textarea {
@@ -123,12 +122,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1%;
 }
 
 main {
   flex: 1;
-  padding: 2% 4%;
 }
 
 .btn-no-style {
@@ -137,7 +134,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: rgb(51, 50, 53);
+  color: rgb(111, 110, 113);
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -146,7 +143,7 @@ main {
 
 
 .delete-post-btn {
-  background-color: rgb(51, 50, 53);
+  background-color: rgb(111, 110, 113);
 }
 
 .post {
@@ -155,8 +152,7 @@ main {
 }
 
 .post .title span {
-  font-style: italic;
-  font-size: 90%;
+  font-size: 60%;
   color: #7d7d7d;
 }
 
