@@ -1,6 +1,6 @@
 # LetsTalkTech
 
-LetsTalkTech is a CMS style blog where developers around the world can create an account, publish and edit their own blog posts, as well as comment on existing posts published to the site.
+Following the MVC paradigm structure, LetsTalkTech is a CMS style blog where developers around the world can create an account, contribute blog posts, and provide comment/feedback on existing posts, as well.
 
 ## User Story
 
@@ -49,11 +49,16 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 ```
 
 ## Technologies
-* Node.js
-* Express
-* Sequelize
-* MySQL2
-* dotenv 
+* Javascript - client + server-side language
+* Node.js - executes JS code outside the web browser (used for server-side scripting)
+* Express - backend framework for Node.js
+* Express Session- package to store session data
+* MySQL2 - backend database 
+* Sequelize - ORM for managing MySQL database 
+* Heroku - platform to host the tech blog
+* dotenv - uses environment variables so root passwords are not revealed on github
+* handlebars- template engine for front-end Javascript + HTML
+* bcrypt - password hashing
 
 ## Preview
 

@@ -76,7 +76,6 @@ button {
   font-weight: 600;
   color:rgb(7, 7, 7);;
   text-transform: uppercase;
-  
 }
 
 .post-list {
@@ -128,37 +127,16 @@ main {
   flex: 1;
 }
 
-.btn-no-style {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  text-decoration: none;
-  color: rgb(111, 110, 113);
-  font-size: 100%;
-  font-weight: bold;
-  transition: color .1s;
-  margin-left: 16px;
+.btn-sm {
+  font-size: 8px;
+  color: white;
+  padding: 3px 6px;
+  margin-top: 18px;
 }
 
-
-.delete-post-btn {
-  background-color: rgb(111, 110, 113);
-}
-
-.post {
+.post-card {
   margin-bottom: 2%;
   line-height: 150%;
-}
-
-.post .title span {
-  font-size: 60%;
-  color: #7d7d7d;
-}
-
-.edit-link {
-  display: block;
-  margin: -1.5% 0 2% 0;
 }
 
 .comment-form {
@@ -170,11 +148,9 @@ main {
   margin-bottom: 1%;
 }
 
-
 .edit-post-form {
   margin-bottom: 5%;
 }
-
 
 .card {
     margin-bottom: 1em;

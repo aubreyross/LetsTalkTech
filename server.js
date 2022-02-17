@@ -1,9 +1,12 @@
 //import required packages
 const path = require('path');
+//backend framework for node.js
 const express = require('express');
+//authentication
 const session = require('express-session');
+//templating language
 const exphbs = require('express-handlebars');
-
+//ORM
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 

@@ -33,7 +33,7 @@ router.put('/:id', withAuth, async (req, res) => {
   );
   //response handlers
   if (!postData) {
-    res.status(404).json({ message: 'No post found with this id!' });
+    res.status(404).json({ message: 'Oops! No post with this ID' });
     return;
   }
     res.status(200).json(postData);
@@ -53,7 +53,7 @@ router.delete('/:id', withAuth, async (req, res) => {
     });
     //response handlers
     if (!postData) {
-      res.status(404).json({ message: 'No post found with this id!' });
+      res.status(404).json({ message: 'Oops! No post with this id!' });
       return;
     }
 
