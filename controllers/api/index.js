@@ -1,9 +1,11 @@
 //required routes
 const router = require('express').Router();
-const commentRoutes = require('./commentRoutes')
+
+const commentRoutes = require('./commentRoutes');
 const userRoutes = require('./userRoutes');
 const postRoutes = require('./postRoutes');
 
+//route paths for API
 router.use('/comment', commentRoutes);
 router.use('/user', userRoutes);
 router.use('/post', postRoutes);
