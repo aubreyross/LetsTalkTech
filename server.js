@@ -17,6 +17,7 @@ const routes = require('./controllers');
 //create express.js server
 const app = express();
 const PORT = process.env.PORT || 3001;
+//const environment = process.env.NODE_ENV || 'development';
 
 //set handlebars.js with helpers
 const hbs = exphbs.create ({ helpers });
