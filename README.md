@@ -62,10 +62,19 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## Preview
 
+![Screen Shot 2022-02-17 at 11 50 53 AM](https://user-images.githubusercontent.com/87405979/155587648-d837db6a-1c07-44a7-a4a9-832608557de7.png)
+
+![Screen Shot 2022-02-17 at 11 47 36 AM](https://user-images.githubusercontent.com/87405979/155587577-9274f39a-30ab-4112-884a-4c9fefa8fc44.png)
+
+![Screen Shot 2022-02-17 at 4 55 30 PM](https://user-images.githubusercontent.com/87405979/155587978-b378ca3e-5087-4073-b8cc-c9e14b355d39.png)
+
+![Screen Shot 2022-02-17 at 11 48 04 AM](https://user-images.githubusercontent.com/87405979/155588009-02e3813e-1c29-4846-ae83-76647863e2e2.png)
+
+
 
 ## URLs
 * Code: https://github.com/aubreyross/LetsTalkTech
-* Deployed: https://git.heroku.com/letstalktech.git
+* Deployed: https://letstalktech.herokuapp.com/login
 
 ## Resources
 * https://developer.mozilla.org/en-US/docs/Glossary/MVC
@@ -75,6 +84,6 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 * https://sequelize.org/v5/manual/data-types.html
 * https://sequelize.org/master/variable/index.html#static-variable-DataTypes
 * https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql 
-* And a special thank you to the BCS assitant who helped me with my connection issue! 
+* And a special thank you to the BCS assitant who helped me with my path file issue! 
 
 
