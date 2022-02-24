@@ -74,6 +74,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 * https://getbootstrap.com/
 * https://sequelize.org/v5/manual/data-types.html
 * https://sequelize.org/master/variable/index.html#static-variable-DataTypes
+* https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql 
 * And a special thank you to the BCS assitant who helped me with my connection issue! 
 
 
